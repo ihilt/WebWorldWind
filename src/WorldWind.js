@@ -216,6 +216,7 @@ define([ // PLEASE KEEP ALL THIS IN ALPHABETICAL ORDER BY MODULE NAME (not direc
         './formats/shapefile/Shapefile',
         './layer/ShowTessellationLayer',
         './shaders/SkyProgram',
+        './layer/SlippyImageLayer',
         './layer/StarFieldLayer',
         './shaders/StarFieldProgram',
         './util/SunPosition',
@@ -494,6 +495,7 @@ define([ // PLEASE KEEP ALL THIS IN ALPHABETICAL ORDER BY MODULE NAME (not direc
               Shapefile,
               ShowTessellationLayer,
               SkyProgram,
+              SlippyImageLayer,
               StarFieldLayer,
               StarFieldProgram,
               SunPosition,
@@ -1009,6 +1011,7 @@ define([ // PLEASE KEEP ALL THIS IN ALPHABETICAL ORDER BY MODULE NAME (not direc
         WorldWind['Shapefile'] = Shapefile;
         WorldWind['ShowTessellationLayer'] = ShowTessellationLayer;
         WorldWind['SkyProgram'] = SkyProgram;
+        WorldWind['SlippyImageLayer'] = SlippyImageLayer;
         WorldWind['StarFieldLayer'] = StarFieldLayer;
         WorldWind['StarFieldProgram'] = StarFieldProgram;
         WorldWind['SunPosition'] = SunPosition;
