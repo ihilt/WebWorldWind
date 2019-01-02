@@ -634,7 +634,7 @@ define([
                 // Assumes a 45 degree horizontal field of view.
                 var aspectRatio = viewportHeight / viewportWidth;
 
-                return 2 * distanceToSurface / Math.sqrt(aspectRatio * aspectRatio + 5);
+                return 2 * 1.0 / Math.sqrt(aspectRatio * aspectRatio + 5);
             },
 
             /**
