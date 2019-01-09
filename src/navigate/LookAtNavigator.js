@@ -18,10 +18,10 @@
  * @exports LookAtNavigator
  */
 define([
-        '../geom/Location',
+        '../geom/Position',
         '../navigate/Navigator',
     ],
-    function (Location,
+    function (Position,
               Navigator) {
         "use strict";
 
@@ -38,9 +38,9 @@ define([
 
             /**
              * The geographic location at the center of the viewport.
-             * @type {Location}
+             * @type {Position}
              */
-            this.lookAtLocation = new Location(30, -110);
+            this.lookAtLocation = new Position(30, -110, 0);
 
             /**
              * The distance from this navigator's eye point to its look-at location.

@@ -684,7 +684,7 @@ define([
             this.worldWindowController.applyLimits();
             var globe = this.globe;
             var navigator = this.navigator;
-            var lookAtPosition = new Position(navigator.lookAtLocation.latitude, navigator.lookAtLocation.longitude, 0);
+            var lookAtPosition = navigator.lookAtLocation;
             modelview.multiplyByLookAtModelview(lookAtPosition, navigator.range, navigator.heading, navigator.tilt, navigator.roll, globe);
 
             if (projection) {
